@@ -22,7 +22,7 @@ const Title = styled.h2``;
 
 function App() {
   const [users, setUsers] = useState([]);
-  const [onedit, setOnEdit] = useState(null);
+  const [onEdit, setOnEdit] = useState(null);
 
   const getUsers = async () => {
     try {
@@ -42,7 +42,7 @@ function App() {
    <>
    <Container>
     <Title>Usuários</Title>
-    <Form onEdit={onedit} users={users} setUsers={setUsers}  setOnEdit={setOnEdit} />
+    <Form onEdit={onEdit} users={users} setUsers={setUsers} getUsers={getUsers} setOnEdit={setOnEdit} />
     <Grid users={users} setUsers={setUsers}  setOnEdit={setOnEdit}/>
    </Container>
    <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT} />

@@ -40,7 +40,7 @@ const Button = styled.button`
 
 const Label = styled.label``;
 
-const Form = ({ getusers, onEdit, setOnEdit })=> {
+const Form = ({ getUsers, onEdit, setOnEdit })=> {
     const ref = useRef();
     
     const user = ref.current;
@@ -58,7 +58,6 @@ const Form = ({ getusers, onEdit, setOnEdit })=> {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
         const user = ref.current;
 
         if(
@@ -78,17 +77,22 @@ const Form = ({ getusers, onEdit, setOnEdit })=> {
              fone: user.fone.value,
              data_nascimento: user.data_nascimento.value,
             })
-            .then(({ data }) => toast.success(data))
+            .then(({ data }) => {
+            toast.success(data)
+            })
             .catch(({ data }) => toast.error(data))
         } else {
             await axios
-            .post("http://localhost:8800/" + onEdit.id, {
+            .post("http://localhost:8800/", {
              nome: user.nome.value, 
              email: user.email.value,
              fone: user.fone.value,
              data_nascimento: user.data_nascimento.value,
             })
-            .then(({ data }) => toast.success(data))
+            .then(({ data }) =>{
+                toast.success(data)
+            }
+             )
             .catch(({ data }) => toast.error(data))
         }
 
@@ -98,7 +102,7 @@ const Form = ({ getusers, onEdit, setOnEdit })=> {
         user.data_nascimento.value = "";
 
         setOnEdit(null);
-        getusers();
+        getUsers();
     };
 
   return (
