@@ -33,25 +33,46 @@ rotas para as entidades mapeadas).
 
 <h1>OBJETIVOS</h1>
 
-* Listagem de todos os registros;
+```
 
-* Listagem de um único registro com base em um parâmetro de rota;
+⇨ Utilizar o padrão MVC;
 
-* Inserção de um registro;
+⇨ Utilizar os verbos HTTP seguindo o padrão REST;
 
-* Modificação de um registro;
+⇨ Implementar todas as operações de CRUD;
 
-* Deleção de um registro.
+⇨ Utilizar o padrão de projeto (design pattern) DAO para abstração de transações no banco, com Promises;
 
+⇨ Utilizar o README.md do repositório para documentação, contendo informações como:
+
+◼ Como instalar as dependências do projeto;
+
+◼ Como executar o projeto;
+
+◼ Quais são as rotas possíveis;
+
+◼ Quaisquer outros pontos que você achar necessários;
+
+⇨ Utilização de async/await para operações no banco (DAO)
+
+⇨ Ter o código fonte hospedado em um repositório no Github.
+
+```
 
 <h1>EXTRAS</h1>
 
-* Listagem de todos os registros;
+> As rotas a serem desenvolvidas para as entidades são:
 
-* Listagem de um único registro com base em um parâmetro de rota;
+```
 
-* Inserção de um registro;
+⇨ Listagem de todos os registros;
 
-* Modificação de um registro;
+⇨ Listagem de um único registro com base em um parâmetro de rota;
 
-* Deleção de um registro.
+⇨ Inserção de um registro;
+
+⇨ Modificação de um registro;
+
+⇨ Deleção de um registro.
+
+```
