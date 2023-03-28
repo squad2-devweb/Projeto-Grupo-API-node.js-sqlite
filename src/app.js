@@ -11,3 +11,5 @@ app.use(router);
 
 app.listen( 3000, ()=>console.log("Api Rodando."))
 
+export default app
+
