@@ -18,4 +18,6 @@ Espero que o projeto tenha ficado de fácil entendimento e caso tenham dúvidas,
 
 Se precisarem entrar em contato, segue meu e-mail: yuri.erik.oliveora@gmail.com
 - Api hospedada no render.com
-- rotas abertas https://api-node-js-sqlite-squad2.onrender.com
+https://api-node-js-sqlite-squad2.onrender.com
+- rotas abertas 
+![codesnap rotas](./code.png)
