@@ -33,11 +33,12 @@ implementar uma dessas entidades.
 ⇨ Algumas funcionalidades e técnicas podem ser desenvolvidas como extras
 no projeto São elas:
 <ul>
-◼ Testes automatizados utilizando frameworks;
-◼ Hospedagem da API;
-◼ Validação e verificação de dados (tipo e características) utilizando models;
-◼ Utilização de algum ORM ou ODM acompanhado de banco de dados de
-escolha.
-<ul/>
-> Obs: Caso opte por utilizar ORM/ODM, não será necessária a implementação do DAO.
+◼ Testes automatizados utilizando frameworks.<br>
+◼ Hospedagem da API.<br>
+◼ Validação e verificação de dados (tipo e características) utilizando models.<br>
+◼ Utilização de algum ORM ou ODM acompanhado de banco de dados de escolha.<br>
+<ul/><br>
+ 
+
+ > Obs: Caso opte por utilizar ORM/ODM, não será necessária a implementação do DAO.
 Neste caso, as Models devem ser responsáveis pelas transações no banco.
