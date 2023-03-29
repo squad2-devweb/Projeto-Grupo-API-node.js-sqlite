@@ -16,7 +16,6 @@ Nós desenvolvemos uma API simples porém estruturada com rotas, controladore e 
 
 Espero que o projeto tenha ficado de fácil entendimento e caso tenham dúvidas, não exitem em entrar em contato, ficarei feliz em ajudar e ver o resultado dos projetos.
 
-Se precisarem entrar em contato, segue meu e-mail: yuri.erik.oliveora@gmail.com
 - Api hospedada no render.com
 https://api-node-js-sqlite-squad2.onrender.com
 - rotas abertas 
