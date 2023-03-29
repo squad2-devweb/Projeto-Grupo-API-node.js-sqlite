@@ -27,4 +27,4 @@ router.post('/cartao', insertCartao);
 router.put('/cartao', updateCartao);
 router.delete('/cartao', deleteCartao);
 
-export default routers;
+export default router;
